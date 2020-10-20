@@ -16,7 +16,7 @@
 import physicalgraph.zigbee.zcl.DataType
 
 metadata {
-    definition(name: "Nue ZigBee Blind Switch", namespace: "3A", author: "Kevin", ocfDeviceType: "oic.d.blind", mnmn: "SmartThings", vid: "generic-shade") {
+    definition(name: "Nue ZigBee Blind Switch", namespace: "Feibit", author: "Kevin", ocfDeviceType: "oic.d.blind", mnmn: "SmartThings", vid: "generic-shade") {
         capability "Actuator"
         capability "Configuration"
         capability "Refresh"

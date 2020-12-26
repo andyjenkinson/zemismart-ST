@@ -17,7 +17,7 @@ import groovy.json.JsonOutput
 import physicalgraph.zigbee.zcl.DataType
 
 metadata {
-	definition(name: "Zemismart ZigBee Window Shade", namespace: "andyjenkinson", author: "Andy Jenkinson", ocfDeviceType: "oic.d.blind") {
+	definition(name: "Zemismart ZigBee Window Shade", namespace: "andyjenkinson", author: "Andy Jenkinson", ocfDeviceType: "oic.d.blind", mnmn: "SmartThings", vid: "generic-shade") {
 		capability "Actuator"
 		capability "Configuration"
 		capability "Refresh"
